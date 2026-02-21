@@ -1,0 +1,29 @@
+@page
+@model HotelBookingClient.Pages.SpecialRequests.EditModel
+@{
+    ViewData["Title"] = "Edit Special Request";
+}
+
+<h2>Edit Special Request</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="SRequest.Id" />
+    <div class="mb-3">
+        <label class="form-label">Guest Name</label>
+        <input asp-for="SRequest.GuestName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Contact Number</label>
+        <input asp-for="SRequest.GuestTel" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Request Detail</label>
+        <input asp-for="SRequest.RequestText" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Date</label>
+        <input asp-for="SRequest.RequestedDate" type="date" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success mt-2">Update</button>
+    <a asp-page="Index" class="btn btn-secondary mt-2">Cancel</a>
+</form>

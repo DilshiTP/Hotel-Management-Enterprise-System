@@ -1,0 +1,42 @@
+@page
+@model HotelBookingClient.Pages.Rooms.IndexModel
+@{
+    ViewData["Title"] = "Manage Rooms";
+}
+
+<style>
+    body {
+        padding-bottom: 80px;
+    }
+</style>
+
+<h1>Room List</h1>
+
+<a class="btn btn-primary mb-3" asp-page="Create">Add A Room</a>
+
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Room Number</th>
+            <th>Type</th>
+            <th>Price Per Night</th>
+            <th>Available</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var room in Model.Rooms)
+        {
+            <tr>
+                <td>@room.RoomNumber</td>
+                <td>@room.RoomType</td>
+                <td>@room.PricePerNight</td>
+                <td>@(room.IsAvailable ? "Yes" : "No")</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@room.Id" class="btn btn-sm btn-warning">Edit</a> 
+                    <a asp-page="Delete" asp-route-id="@room.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

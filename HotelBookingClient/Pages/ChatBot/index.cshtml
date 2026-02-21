@@ -1,0 +1,38 @@
+@page
+@model HotelBookingClient.Pages.ChatBot.IndexModel
+@{
+    ViewData["Title"] = "Hotel Chatbot";
+}
+
+<style>
+    body {
+        padding-bottom: 80px;
+    }
+</style>
+
+<h2>Hotel Assistant ChatBot 🤖</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="userMessage">Ask me something:</label>
+        <input type="text" name="UserMessage" class="form-control" id="userMessage" value="@Model.UserMessage" />
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
+<hr />
+
+<div>
+    <h4>Chat History</h4>
+    <ul>
+        @foreach (var msg in Model.ChatHistory)
+        {
+            <li><strong>@msg.Role:</strong> @msg.Message</li>
+        }
+    </ul>
+</div>
+
+<form method="post" asp-page-handler="ExportChat">
+    <button type="submit" class="btn btn-outline-success mt-2">Export Chat as Text File</button>
+</form>
+

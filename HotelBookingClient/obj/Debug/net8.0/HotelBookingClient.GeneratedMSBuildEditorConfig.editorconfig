@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HotelBookingClient
+build_property.RootNamespace = HotelBookingClient
+build_property.ProjectDir = C:\Users\User\Downloads\HotelManagementEnterprise_5w\HotelManagementEnterprise\HotelBookingClient\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Downloads\HotelManagementEnterprise_5w\HotelManagementEnterprise\HotelBookingClient
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Bookings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Bookings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Bookings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Bookings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/ChatBot/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdEJvdFxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Reports/ExportPdf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xFeHBvcnRQZGYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Rooms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Rooms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Rooms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Rooms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/SpecialRequests/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlY2lhbFJlcXVlc3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/SpecialRequests/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlY2lhbFJlcXVlc3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/SpecialRequests/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlY2lhbFJlcXVlc3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/SpecialRequests/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlY2lhbFJlcXVlc3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/HotelManagementEnterprise_5w/HotelManagementEnterprise/HotelBookingClient/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wt03e13jlo

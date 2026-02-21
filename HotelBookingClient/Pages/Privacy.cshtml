@@ -1,0 +1,44 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-body">
+            <h2 class="mb-4 text-center">@ViewData["Title"]</h2>
+
+            <p>
+                At <strong>Hotel Booking App</strong>, we value your privacy and are committed to protecting your personal information.
+            </p>
+
+            <h4>Information We Collect</h4>
+            <ul>
+                <li>Your name and contact details</li>
+                <li>Booking information (dates, room types, special requests)</li>
+                <li>Payment and billing details, where applicable</li>
+            </ul>
+
+            <h4>How We Use Your Information</h4>
+            <p>We use your information to:</p>
+            <ul>
+                <li>Process and manage room bookings</li>
+                <li>Communicate with you regarding your reservations</li>
+                <li>Improve our services and customer experience</li>
+            </ul>
+
+            <h4>Data Security</h4>
+            <p>
+                We implement industry-standard measures to protect your data from unauthorized access, alteration, or disclosure.
+            </p>
+
+            <h4>Your Rights</h4>
+            <p>
+                You can request to view, update, or delete your personal information by contacting us at <a href="mailto:support@hotelbookingapp.com">support@hotelbookingapp.com</a>.
+            </p>
+
+            <p class="mt-4 text-muted">Last updated: @DateTime.Now.ToString("MMMM dd, yyyy")</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+@page "{id:int}"
+@model HotelBookingClient.Pages.Rooms.EditModel
+@{
+    ViewData["Title"] = "Edit Room";
+}
+
+<h1>Edit Room</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Room.Id" />
+    <div class="form-group">
+        <label>Room Number</label>
+        <input asp-for="Room.RoomNumber" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Room Type</label>
+        <select asp-for="Room.RoomType" class="form-control">
+            <option value="">-- Select Room Type --</option>
+            <option value="Single Room">Single Room</option>
+            <option value="Double Room">Double Room</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Price Per Night</label>
+        <input asp-for="Room.PricePerNight" class="form-control" />
+    </div>
+    <div class="form-group form-check">
+        <input asp-for="Room.IsAvailable" class="form-check-input" />
+        <label class="form-check-label">Available</label>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Save</button>
+    <a asp-page="Index" class="btn btn-secondary mt-2">Cancel</a>
+</form>

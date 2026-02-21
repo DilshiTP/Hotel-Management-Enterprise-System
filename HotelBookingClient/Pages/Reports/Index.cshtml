@@ -1,0 +1,80 @@
+@page
+@model HotelBookingClient.Pages.Reports.WeeklyModel
+@{
+    ViewData["Title"] = "Weekly Report";
+}
+
+<style>
+    body {
+        padding-bottom: 80px;
+    }
+</style>
+
+<h2>Weekly Bookings & Special Requests Report</h2>
+
+<!-- Date Selection Form -->
+<form method="get" class="mb-4">
+    <div class="form-group">
+        <label for="weekStart">Select a date in the week:</label>
+        <input type="date" name="weekStart" id="weekStart" value="@Request.Query["weekStart"]" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Generate Report</button>
+    <a href="/Reports/ExportPdf?weekStart=@Request.Query["weekStart"]" class="btn btn-danger mt-2 ms-2">Export to PDF</a>
+    <a href="/" class="btn btn-secondary mt-2 ms-2">Back to Home</a>
+</form>
+
+<!-- Weekly Report Table -->
+<table class="table table-bordered mt-4">
+    <thead class="table-light">
+        <tr>
+            <th>Date</th>
+            <th>
+                Bookings
+                <a href="/Bookings" class="ms-1 text-decoration-none text-dark">
+                    <i class="bi bi-arrow-right-circle ml-2"></i>
+                </a>
+            </th>
+            <th>
+                Special Requests
+                <a href="/SpecialRequests" class="ms-1 text-decoration-none text-dark">
+                    <i class="bi bi-arrow-right-circle ml-2"></i>
+                </a>
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @{
+    Console.WriteLine("Hi");
+        }
+        @foreach (var item in Model.Report)
+        {
+            Console.WriteLine($"Date: {item.Date}, Bookings: {item.BookingCount}, SpecialRequests: {item.SpecialRequestCount}");
+            <tr>
+                <td>@item.Date.ToString("dddd, MMM dd")</td>
+                <td>@item.BookingCount</td>
+                <td>@item.SpecialRequestCount</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Room Type Summary -->
+<h4 class="mt-2">Bookings by Room Type</h4>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Room Type</th>
+            <th>Bookings</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.BookingsByRoomType)
+        {
+            <tr>
+                <td>@item.Key</td>
+                <td>@item.Value</td>
+            </tr>
+        }
+    </tbody>
+</table>

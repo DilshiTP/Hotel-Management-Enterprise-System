@@ -1,0 +1,61 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Hotel Booking System";
+}
+
+<style>
+    body {
+        background: url('/background.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .home-container {
+        background-color: rgba(255, 255, 255, 0.85);
+        padding: 25px;
+        border-radius: 16px;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 4vh;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .home-container h1 {
+        font-size: 2.2rem;
+        margin-bottom: 6px;
+        font-weight: bold;
+    }
+
+    .home-container p {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .home-container .btn {
+        display: block;
+        width: 85%;
+        border-radius: 5px;
+        margin: 0 auto 15px auto;
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+</style>
+
+<div class="home-container">
+    <h1>Hotel Booking & Management Tool</h1>
+    <p>Welcome to our personal hotel booking manager.</p>
+
+    <a class="btn btn-primary" href="/Bookings">Manage Bookings</a>
+    <a class="btn btn-secondary" href="/Rooms">Manage Rooms</a>
+    <a class="btn btn-info" href="/SpecialRequests">Special Requests</a>
+    <a class="btn btn-success" href="/Reports">Weekly Report</a>
+    <a class="btn btn-dark" href="/Chatbot">Chatbot</a>
+</div>
